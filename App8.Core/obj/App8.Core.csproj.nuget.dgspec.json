@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Users\\Massimo\\OneDrive\\Development\\Source\\App8\\App8.Core\\App8.Core.csproj": {}
+    "C:\\Users\\timun\\Documents\\GitHub\\Mahapps.PasswordBind\\App8.Core\\App8.Core.csproj": {}
   },
   "projects": {
-    "E:\\Users\\Massimo\\OneDrive\\Development\\Source\\App8\\App8.Core\\App8.Core.csproj": {
+    "C:\\Users\\timun\\Documents\\GitHub\\Mahapps.PasswordBind\\App8.Core\\App8.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Users\\Massimo\\OneDrive\\Development\\Source\\App8\\App8.Core\\App8.Core.csproj",
+        "projectUniqueName": "C:\\Users\\timun\\Documents\\GitHub\\Mahapps.PasswordBind\\App8.Core\\App8.Core.csproj",
         "projectName": "App8.Core",
-        "projectPath": "E:\\Users\\Massimo\\OneDrive\\Development\\Source\\App8\\App8.Core\\App8.Core.csproj",
-        "packagesPath": "C:\\Users\\Massimo\\.nuget\\packages\\",
-        "outputPath": "E:\\Users\\Massimo\\OneDrive\\Development\\Source\\App8\\App8.Core\\obj\\",
+        "projectPath": "C:\\Users\\timun\\Documents\\GitHub\\Mahapps.PasswordBind\\App8.Core\\App8.Core.csproj",
+        "packagesPath": "C:\\Users\\timun\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\timun\\Documents\\GitHub\\Mahapps.PasswordBind\\App8.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Massimo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\timun\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],

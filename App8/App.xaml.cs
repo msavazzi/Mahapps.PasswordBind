@@ -4,7 +4,7 @@ using System.Windows;
 using System.Windows.Threading;
 
 using App8.Contracts.Services;
-using App8.ViewModels;
+// using App8.ViewModels;
 
 using GalaSoft.MvvmLight.Ioc;
 
@@ -21,8 +21,8 @@ namespace App8
     {
         private IApplicationHostService _host;
 
-        public ViewModelLocator Locator
-            => Resources["Locator"] as ViewModelLocator;
+        //public ViewModelLocator Locator
+        //    => Resources["Locator"] as ViewModelLocator;
 
         public App()
         {
@@ -45,7 +45,7 @@ namespace App8
                 .AddJsonFile("appsettings.json")
                 .Build();
 
-            Locator.AddConfiguration(configuration);
+            // Locator.AddConfiguration(configuration);
         }
 
         private async void OnExit(object sender, ExitEventArgs e)

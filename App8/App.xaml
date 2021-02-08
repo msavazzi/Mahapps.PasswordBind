@@ -4,7 +4,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:d1p1="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    xmlns:vm="clr-namespace:App8.ViewModels"
+    
     d1p1:Ignorable="d"
     DispatcherUnhandledException="OnDispatcherUnhandledException"
     Exit="OnExit"
@@ -13,10 +13,10 @@
     <Application.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="/Styles/_FontSizes.xaml" />
-                <ResourceDictionary Source="/Styles/_Thickness.xaml" />
-                <ResourceDictionary Source="/Styles/MetroWindow.xaml" />
-                <ResourceDictionary Source="/Styles/TextBlock.xaml" />
+                <!--<ResourceDictionary Source="/Styles/_FontSizes.xaml" />-->
+                <!--<ResourceDictionary Source="/Styles/_Thickness.xaml" />-->
+                <!--<ResourceDictionary Source="/Styles/MetroWindow.xaml" />-->
+                <!--<ResourceDictionary Source="/Styles/TextBlock.xaml" />-->
                 <!--
                     MahApps.Metro resource dictionaries.
                     Learn more about using MahApps.Metro at https://mahapps.com/
@@ -27,7 +27,6 @@
                 <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Themes/Dark.Blue.xaml" />
                 <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Themes/Light.Blue.xaml" />
             </ResourceDictionary.MergedDictionaries>
-            <vm:ViewModelLocator x:Key="Locator" d:IsDataSource="True" />
         </ResourceDictionary>
     </Application.Resources>
 </Application>
