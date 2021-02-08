@@ -77,5 +77,16 @@ namespace App8.ViewModels
             }
         }
 
+        private string _backupPasswordM;
+        public string BackupPasswordM
+        {
+            get { return _backupPasswordM; }
+            set
+            {
+                Debug.WriteLine("BackupPasswordM >" + value + "<");
+                Set(ref _backupPasswordM, value);
+            }
+        }
+
     }
 }
