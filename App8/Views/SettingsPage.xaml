@@ -7,6 +7,7 @@
     xmlns:h="clr-namespace:App8.Helpers"
     xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
     xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls"
+    xmlns:mahShared="http://metro.mahapps.com/winfx/xaml/shared"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:models="clr-namespace:App8.Models"
     xmlns:properties="clr-namespace:App8.Properties"
@@ -34,9 +35,14 @@
                     h:PasswordHelper.Attach="True"
                     h:PasswordHelper.Password="{Binding BackupPassword, Mode=TwoWay}"
                     mah:TextBoxHelper.UseFloatingWatermark="True"
-                    mah:TextBoxHelper.Watermark="waterm"
+                    mah:TextBoxHelper.Watermark="Password binding via PasswordHelper"
                     Style="{StaticResource MahApps.Styles.PasswordBox.Button.Revealed}"
                     ToolTip="tooltip" />
+
+                <PasswordBox
+                    mah:PasswordBoxHelper.CapsLockWarningToolTip="Caps Lock is on"
+                    mah:TextBoxHelper.Watermark="Password binding via mahApps"
+                    mahShared:PasswordBoxBindingBehavior.Password="{Binding PasswordM, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True, Mode=TwoWay}" />
 
                 <TextBlock
                     Margin="{StaticResource SmallTopMargin}"
